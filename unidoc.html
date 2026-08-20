@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Result Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            ABC <span>UNIVERSITY</span>
+        </div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Courses</a>
+            <a href="#result">Results</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+            <p>ABC UNIVERSITY</p>
+
+            <h1>
+                University<br>
+                <span>Result Portal</span>
+            </h1>
+
+            <p class="description">
+                Check your examination result quickly and easily.
+                Enter your roll number and semester below.
+            </p>
+
+            <a href="#result" class="hero-btn">
+                Check Result
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Result Search -->
+    <section class="result-section" id="result">
+
+        <div class="result-box">
+
+            <h2>Check Your Result</h2>
+
+            <p class="subtitle">
+                Enter your student details
+            </p>
+
+            <form>
+
+                <div class="input-box">
+                    <label>Roll Number</label>
+                    <input
+                        type="text"
+                        placeholder="Enter Roll Number"
+                    >
+                </div>
+
+                <div class="input-box">
+                    <label>Select Course</label>
+
+                    <select>
+                        <option>Select Course</option>
+                        <option>BCA</option>
+                        <option>BBA</option>
+                        <option>B.Tech</option>
+                        <option>MCA</option>
+                        <option>MBA</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <label>Select Semester</label>
+
+                    <select>
+                        <option>Select Semester</option>
+                        <option>Semester 1</option>
+                        <option>Semester 2</option>
+                        <option>Semester 3</option>
+                        <option>Semester 4</option>
+                        <option>Semester 5</option>
+                        <option>Semester 6</option>
+                    </select>
+                </div>
+
+                <button type="button">
+                    Search Result
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Result -->
+    <section class="student-result">
+
+        <div class="result-card">
+
+            <div class="student-header">
+
+                <div>
+                    <h2>Student Result</h2>
+                    <p>Examination Session 2026</p>
+                </div>
+
+                <div class="status">
+                    PASS
+                </div>
+
+            </div>
+
+
+            <!-- Student Details -->
+
+            <div class="student-details">
+
+                <div>
+                    <small>Student Name</small>
+                    <strong>Rahul Kumar</strong>
+                </div>
+
+                <div>
+                    <small>Roll Number</small>
+                    <strong>ABC2026001</strong>
+                </div>
+
+                <div>
+                    <small>Course</small>
+                    <strong>BCA</strong>
+                </div>
+
+                <div>
+                    <small>Semester</small>
+                    <strong>6th Semester</strong>
+                </div>
+
+            </div>
+
+
+            <!-- Marks Table -->
+
+            <h3>Subject Wise Marks</h3>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Max Marks</th>
+                        <th>Obtained</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Web Development</td>
+                        <td>100</td>
+                        <td>88</td>
+                        <td>A+</td>
+                    </tr>
+
+                    <tr>
+                        <td>Computer Networks</td>
+                        <td>100</td>
+                        <td>82</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>Database Management</td>
+                        <td>100</td>
+                        <td>76</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cyber Security</td>
+                        <td>100</td>
+                        <td>85</td>
+                        <td>A</td>
+                    </tr>
+
+                    <tr>
+                        <td>Software Engineering</td>
+                        <td>100</td>
+                        <td>79</td>
+                        <td>A</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+
+            <!-- Summary -->
+
+            <div class="summary">
+
+                <div>
+                    <small>Total Marks</small>
+                    <strong>410 / 500</strong>
+                </div>
+
+                <div>
+                    <small>Percentage</small>
+                    <strong>82%</strong>
+                </div>
+
+                <div>
+                    <small>Result</small>
+                    <strong class="pass">PASS</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>ABC UNIVERSITY</h2>
+
+            <p>
+                University Result Management Portal
+            </p>
+
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Courses</a>
+                <a href="#">Results</a>
+                <a href="#">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 ABC University | All Rights Reserved
+        </div>
+
+    </footer>
+
+</body>
+</html>
